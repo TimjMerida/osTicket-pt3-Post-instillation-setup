@@ -23,6 +23,9 @@ This tutorial outlines the post installation process of the open-source help des
 - Have completed part <a href="https://github.com/TimjMerida/osTicket-pt2-Installing-osTicket/blob/main/README.md">Two</a> of the 4 part tutorial
 - Be connected to the Windows VM via RDP 
 
+<h2>Objectives</h2>
+Our objective in this tutorial is to set up osTicket for use in a help desk environment. We will configure departments, teams and users as well as set up SLA's (Service Level Agreements) for our fictional help desk support. 
+
 <h2>Post Install</h2>
 
 <p>
