@@ -30,7 +30,7 @@ Our objective in this tutorial is to set up osTicket for use in a help desk envi
 <h2>Post Install</h2>
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://user-images.githubusercontent.com/128980344/232943697-18bb8084-f80c-41b3-9fa8-9e9588d7a4a2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 The first step in our post installation setup is to configure our roles. We will make a role called head admin that will be able do do anything we need to set up osTicket.
@@ -41,7 +41,7 @@ In the admin paned go to agents - roles and add a new role.
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://user-images.githubusercontent.com/128980344/232943763-671290f1-45b1-495d-95db-c549f581cbb0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 I will name the new role head admin but you can name it whatever you want. Under permisions we will check every box under tasks, tickets and Knowledgebase for this role. Then add role. In an actual help desk environment a role may only have certain permissions that are needed for their job.
@@ -49,7 +49,10 @@ I will name the new role head admin but you can name it whatever you want. Under
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://user-images.githubusercontent.com/128980344/232943823-a03758e4-e326-435c-96bf-7403fadee06f.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://user-images.githubusercontent.com/128980344/232943870-b0c06599-c093-40bc-bd06-1e1eb955fcbd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Next is to set up departments. Departments are ways to section different agents (help desk employees) for the department they work in. We will use this later when assigning tickets in part 4.
@@ -59,7 +62,7 @@ Departments is in the admin panel under agents. We are going to add a new depart
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://user-images.githubusercontent.com/128980344/232943944-6b09cea3-5d02-47f3-93fd-c70c17b15663.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Next is to set up our teams. From the osTicket website "Teams allow you to pull Agents from different Departments and organize them to handle a specific issue or user via a Help Topic or Ticket Filter.". We can use teams to put together department managers or specialists that can work on a major issue. For example if there is a outage at a bank we might have a set team who can handle the issue ranging form electritions to network engineers.
@@ -69,7 +72,7 @@ In the admin panel under agents is teams and we will add a new team. We can name
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://user-images.githubusercontent.com/128980344/232943985-0f236a9f-385b-471f-b083-0061670c6d6e.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Next we will allow anyone to create a ticket. Under admin panel go to settings - users - settings. Under Authentication settings make sure registration required is unchecked. This allows anyone to create a ticket from the portal (part 4).
@@ -78,7 +81,10 @@ Next we will allow anyone to create a ticket. Under admin panel go to settings -
 
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://user-images.githubusercontent.com/128980344/232944022-4d6c4ada-5a80-4b01-a2b2-f98134d35270.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://user-images.githubusercontent.com/128980344/232944060-efd81c4e-5fe1-451a-a830-c1079278d7f1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Now we will add our agents. Agents are the employees who will work the tickets. Under the admin panel go to agents and add new agents. We will make two agents, Jessica and David.
@@ -93,6 +99,13 @@ Usernamne: Jess_Vaner
 
 Password: Password12321
 
+</p>  
+<p>
+<img src="https://user-images.githubusercontent.com/128980344/232944095-f17f7227-e48d-4288-b995-eeec162e8b29.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<img src="https://user-images.githubusercontent.com/128980344/232944303-bac6fe37-141c-4d6b-8847-33cbda25f3d5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 For the password click set password and uncheck set agent password. This allows us to set the password for the agent. Also uncheck require password change at the next login.
 
 Then under access we can change the agents department and role. We will make jessica a Systems Administrator and be a head Admin for the role. Then under teams we can change her to be level 2 support. 
