@@ -130,7 +130,38 @@ For this lab I will have the user be Greg Dosto with the email adress GregD<span
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+Next we are going to set up our SLA's. SLA or Service Level Agreements is an expectation of a service to a client provided by the service provider. In osTicket SLA's are used to set time limits on tickets for completion. They are used to help prioritize tickets based on severity for better service. For example an SLA that is set up with SEV-C being a computer not working or Sev-A a cloud server being down, would make clear what ticket should be worked on next.
 
+To set up our SLA's in osTicket we have to go back to the admin panel on the top right. Then under manage we can click SLA and add new SLA plan. We will make 3 severitys for our plan. Fill in the plans one by one hitting add plan at the bottom when done.  
+
+Name: Sev-A (Server down / High Severity)        
+
+Schedule: 24/7 
+
+Grace period: 1 hour
+
+
+Name: Sev-B (Long loading time / Medium Severity)        
+
+Schedule: 24/7
+
+Grace period: 5 hours
+
+
+Name: Sev-C (Employee computer running slow / Low Severity)
+
+Schedule: Mon-Fri 8am-5pm
+
+Grace period: 8 hours
+</p>
+<br />
+
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Next is to configure help topics. These are for the users to streamline their helpdesk experience. Go to the admin panel - manage and help topics. We will make 3 topics, Severe outage, Connection issue and password reset. We dont have to change any settings just add the name and add topic. Thats all we have to do for the post installation setup of osTicket. Next we will run through 3 "examples" of osTicket in use. Part <a href="https://github.com/TimjMerida/osTicket-Pt4-Ticket-lifecycle">four - Ticket lifecycle  
 </p>
 <br />
 
@@ -144,37 +175,3 @@ For this lab I will have the user be Greg Dosto with the email adress GregD<span
 <br />
 
 
-<p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
-</p>
-<br />
-
-
-<p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
-</p>
-<br />
-
-
-<p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
-</p>
-<br />
-
-
-<p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
-</p>
-<br />
