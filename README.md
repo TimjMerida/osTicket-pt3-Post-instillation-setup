@@ -110,7 +110,7 @@ Department: Network department
 
 Role: Head admin  
   
-team: Level 2 support
+Team: Level 2 support
 
 </p>
 <br />
@@ -120,7 +120,8 @@ team: Level 2 support
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+Next is to set up a user. We need to be in the agent panel which can be changed on the top right by clicking agent panel. Then we go to users and add a user.
+For this lab I will have the user be Greg Dosto with the email adress GregD<span>@</span>osTicket.com. We will also add another user Pele Toll with email PeleT<span>@</span>osTicket.com.
 </p>
 <br />
 
