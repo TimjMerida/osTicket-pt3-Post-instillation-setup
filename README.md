@@ -130,7 +130,10 @@ Team: Level 2 support
 
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://user-images.githubusercontent.com/128980344/232944406-918432bd-6d6b-42d1-a19b-3d4f5c32eb9d.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://user-images.githubusercontent.com/128980344/232944526-f1f0a7a3-dac6-4c6a-bd46-2ba8a71f3a6c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Next is to set up a user. We need to be in the agent panel which can be changed on the top right by clicking agent panel. Then we go to users and add a user.
@@ -140,7 +143,10 @@ For this lab I will have the user be Greg Dosto with the email adress GregD<span
 
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://user-images.githubusercontent.com/128980344/232944592-19dd649e-21f1-4551-8af5-41c5d91574cb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://user-images.githubusercontent.com/128980344/232944649-9004a251-6c26-4a4e-bb77-58a69cdfa3ed.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Next we are going to set up our SLA's. SLA or Service Level Agreements is an expectation of a service to a client provided by the service provider. In osTicket SLA's are used to set time limits on tickets for completion. They are used to help prioritize tickets based on severity for better service. For example an SLA that is set up with SEV-C being a computer not working or Sev-A a cloud server being down, would make clear what ticket should be worked on next.
@@ -171,7 +177,10 @@ Grace period: 8 hours
 
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://user-images.githubusercontent.com/128980344/232944690-75867d4b-3907-4e89-85c4-f5043872f81d.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://user-images.githubusercontent.com/128980344/232944699-bc0e55c1-7d57-4964-a0ac-c1360605b86d.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Next is to configure help topics. These are for the users to streamline their helpdesk experience. Go to the admin panel - manage and help topics. We will make 3 topics, Severe outage, Connection issue and password reset. We dont have to change any settings just add the name and add topic. Thats all we have to do for the post installation setup of osTicket. Next we will run through 3 "examples" of osTicket in use. Part <a href="https://github.com/TimjMerida/osTicket-Pt4-Ticket-lifecycle">four - Ticket lifecycle  
