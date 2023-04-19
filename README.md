@@ -87,7 +87,7 @@ For Jessica we will fill out as follows.
 
 Name: Jessica Vaner
 
-Email: JessV@osTicket.com
+Email: JessV<span>@</span>osTicket.com
 
 Usernamne: Jess_Vaner
 
@@ -100,7 +100,7 @@ Click add and then create to make the agent Jessica Vaner. Do the same with Davi
 
 Name: David Bale 
 
-Email: DavidB@osTicket.com
+Email: DavidB<span>@</span>osTicket.com
 
 Username: David_Bale
 
@@ -108,7 +108,8 @@ Password: Password12321
 
 Department: Network department
 
-Role: Head admin       
+Role: Head admin     
+
 </p>
 <br />
 
