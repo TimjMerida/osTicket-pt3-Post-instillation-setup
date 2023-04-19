@@ -81,7 +81,7 @@ Next we will allow anyone to create a ticket. Under admin panel go to settings -
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Now we will add our agents. Agents are the employees who will work the tickets. Under the admin panel go to agents and create new agents. We will make two agents, Jessica and David.
+Now we will add our agents. Agents are the employees who will work the tickets. Under the admin panel go to agents and add new agents. We will make two agents, Jessica and David.
   
 For Jessica we will fill out as follows. 
 
@@ -108,7 +108,9 @@ Password: Password12321
 
 Department: Network department
 
-Role: Head admin     
+Role: Head admin  
+  
+team: Level 2 support
 
 </p>
 <br />
