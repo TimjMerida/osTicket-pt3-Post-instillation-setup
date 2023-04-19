@@ -188,12 +188,5 @@ Next is to configure help topics. These are for the users to streamline their he
 <br />
 
 
-<p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
-</p>
-<br />
 
 
