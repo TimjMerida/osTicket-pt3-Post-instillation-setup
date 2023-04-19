@@ -17,7 +17,7 @@ This tutorial outlines the post installation process of the open-source help des
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 10</b> 
 
 <h2>Prerequisetes</h2>
 - Have completed part <a href="https://github.com/TimjMerida/osTicket-pt2-Installing-osTicket/blob/main/README.md">Two</a> of the 4 part tutorial
